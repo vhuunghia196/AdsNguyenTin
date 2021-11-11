@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="18000"/>
+    <title>Quảng Cáo Nguyễn Tín</title>
+    <link rel="shotcut icon" href="images/logo2.png"/> 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />      
+    <!--carousel-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> 
+    <!--css-->
+    <link rel="stylesheet" href="CSS/styleservice.css"/>
+    <!--font chữ-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@600&display=swap" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!--Jquery-->
+    <script src="Js/jquery-3.6.0.min.js"></script>
+    <!--wowjs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body onload="init()">
+    <script src="Js/jsservice.js"></script>
+    <!--Menu-->
+    <nav class="header-menu">
+        <div class="menu">
+            <div class="icon-menu"><a href="javascript:;"><i class="fas fa-bars"></i></a></div>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo2.png" alt="bang quang cao tiem" id="logotiem"/></a>
+            </div>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> TRANG CHỦ</a></li>
+                <li><a href="introduce.html">GIỚI THIỆU</a></li>
+                <li class="sub"><a href="service.html" class="chose">DỊCH VỤ</a>
+                    <ul class="menu subcontent sub-sv">
+                        <li><a href="#LED" class="menu-sv1">LÀM BẢNG HIỆU LED</a></li>
+                        <li><a href="#ALU" class="menu-sv2">LÀM BẢNG HIỆU ALU</a></li>
+                        <li><a href="#Hd" class="menu-sv3">LÀM BẢNG HIỆU HỘP ĐÈN</a></li>
+                        <li><a href="#MICA" class="menu-sv4">LÀM BẢNG HIỆU MICA</a></li>
+                    </ul>
+                </li>
+                <li class="sub"><a href="product.html">SẢN PHẢM</a>
+                    <ul class="menu subcontent">
+                        <li><a href="product.html#led">BẢNG HIỆU LED</a></li>
+                        <li><a href="product.html#alu">BẢNG HIỆU ALU</a></li>
+                        <li><a href="product.html#hd">BẢNG HIỆU HỘP ĐÈN</a></li>
+                        <li><a href="product.html#mica">BẢNG HIỆU MICA</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html"><i class="fas fa-sms"></i> LIÊN HỆ</a></li>
+            </ul>
+        </div>
+    </nav>  
+    <!--page-->
+    <section>
+        <div class="page">
+            <div>
+                <a href="index.html" title="Trang chủ"><i class="fas fa-home"></i></a>
+                <span>></span>
+                <span class="move">Dịch Vụ</span>
+            </div>
+        </div>
+    </section>
+    <!--go to top-->
+    <section>
+        <div>
+            <a id="goToTop" href="javascript:;"><i class="fas fa-chevron-up" title="GO TO TOP"></i></a>
+        </div>
+    </section>
+    <!--zalo-->
+    <section >
+        <div class="zalo">
+            <a href="https://zalo.me/0982652639" target="_blank"><img src="images/icon-zalo1.png"/></a>
+        </div>
+        <div class="zalo-circle"></div>
+        <div class="zalo-circle-small"></div>
+    </section>
+
+    <!--service-->
+    <section class="service">
+        <div class="service-menu">
+            <div id="tab1"><a href="#LED" class="active">Bảng hiệu LED</a></div>
+            <div id="tab2"><a href="#ALU">Bảng hiệu ALU</a></div>
+            <div id="tab3"><a href="#Hd">Bảng hiệu Hộp Đèn</a></div>
+            <div id="tab4"><a href="#MICA">Bảng hiệu MICA</a></div>
+        </div>
+        <div class="service-contents">
+            <div class="service-content" id="LED">
+                <div class="service-content-title">
+                    <h3>I.Giới thiệu bảng hiệu đèn LED</h3>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h5>LED (viết tắt của Light Emitting Diode, có nghĩa là diode phát sáng hoặc diode phát quang) là các <a href="https://vi.wikipedia.org/wiki/Diode" target="_blank">diode</a> có khả năng phát ra ánh sáng hay tia hồng ngoại, tử ngoại. Cũng giống như diode, LED được cấu tạo từ một khối bán <a href="https://vi.wikipedia.org/wiki/Ch%E1%BA%A5t_b%C3%A1n_d%E1%BA%ABn" target="_blank">dẫn loại p</a> ghép với một khối bán dẫn loại n.</h5>
+                        <h5>Một chiếc bảng hiệu quảng cáo có tính thẩm mỹ cao, tính thẩm mỹ quảng bá thương hiệu cao và có thể hoạt động được cả ngày lẫn đêm…Không gì khác, bảng hiệu đèn led đáp ứng đủ yêu cầu đó. Bảng hiệu đèn led được thiết kế với kết cấu chắc chắn với khung đèn led với nhiều màu sắc thể hiện nội dung quảng cáo minh hoạ một cách bắt mắt và ấn tượng nhất. Bảng hiệu quảng cáo đèn led đã và đang được sự dụng nhiều nhất hiện nay vì sự chú ý của nó là vượt trội.</h5>
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/led2.jpg" alt="image"/>
+                    </div>
+                </div>
+                <div class="service-content-title">
+                    <h3>II. Các loại hình làm bảng hiệu led</h3>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h4>1. Bảng hiệu led ma trận</h4>
+                        <h5>Là bảng hiệu led chạy chữ, có khả nặng hiện thị 1 hàng hoặc nhiều hàng thông tin, có khả năng phân chia hoạt động của ma trận thành từng góc, có khả năng tự chạy được riêng lẻ và không phải kết nối máy tính.</h5>
+                        <h5>Có ưu điểm như sau:</h5>
+                        <ul>
+                            <li>Không gió hạn trang tin</li>
+                            <li>Có thể hiện thị 3 màu: Xanh, đỏ, vàng</li>
+                            <li>Có giá tương đối rẻ so với sản phẩm 65.536 màu có thể thay đổi kỹ xảo</li>
+                        </ul>
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/led.jpg" alt="image"/>
+                    </div>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h4>2. Bảng hiệu led viết tay</h4>
+                        <h5>Là bảng huỳnh quang hay bảng dạ huỳnh quang. Hiện nay loại bảng này đang rất được yêu thích.  Đây là một loại bảng làm bằng kính có gắn đèn led dây huỳnh quang. Có các loại bút dạ quang nhiều màu sau đó tác dụng của đèn led phát sáng đẹp mắt và vô cùng ấn tượng.</h5>
+                        <h5>Có ưu điểm như sau:</h5>
+                        <ul>
+                            <li>Đèn nháy thông minh  để truyền tải thông tin</li>
+                            <li>Được làm bằng chất liệu huỳnh quang nên độ bền khá cao</li>
+                            <li>Nếu chọn lựa chỗ lắp đặt tin cậy thì giá thành rất rẻ.</li>
+                        </ul>
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/led1.jpg" alt="image"/>
+                    </div>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h4>3. Bảng hiệu led điện tử</h4>
+                        <h5>Là loại bảng hiệu không tia cực tím không bức xạ mặt trời, phát nhiệt sáng thấp. Cũng như bóng đèn bình thường nhưng các điot phát ra ánh sáng hay tia hồng ngoại.</h5>
+                        <h5>Có ưu điểm như sau:</h5>
+                        <ul>
+                            <li>Chạy nhiều dòng chữ khác nhau liên tục</li>
+                            <li>Thân thiện môi trường, có thể điều khiển được từ xa</li>
+                            <li>Không bị giới hạn trang tin</li>
+                            <li>Chạy liên tục,phát sáng hiệu quả</li>
+                        </ul>
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/led3.png" alt="image"/>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-content" id="ALU">
+                <div class="service-content-title">
+                    <h3>I.Giới thiệu bảng hiệu đèn ALU</h3>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h5>Alu là chính là tấm <a href="https://vi.wiki2.wiki/wiki/Aluminium" target="_blank">nhôm nhựa Alumium</a> chuyên dùng cho làm biển bảng, căng mặt tiền các đơn vị, doanh nghiệp, các cơ quan hành chính…</h5>
+                        <h5>Bảng hiêu Alu dùng để treo dựng cả trong nhà lẫn ngoài trời nhằm tăng khả năng quảng cáo thương hiệu, làm nổi bật thông tin để khách hàng bị thu hút chú ý và biết đến bạn. Thường các doanh nghiệp, công ty, shop, cửa hàng, showroom, trường dạy…đều cần có bảng hiệu, đa phần họ cũng chọn chất liệu Alu để làm biển bảng. Nên dễ hiểu vì sao bước ra ngoài bạn bắt gặp khá nhiều các bảng hiệu, mặt dựng cửa hàng bằng Alu.</h5>
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/alu1.png" alt="image"/>
+                    </div>
+                </div>
+                <div class="service-content-title">
+                    <h3>II. Các loại hình làm bảng hiệu ALU</h3>
+                </div>    
+                <div class="service-content-info1">
+                    <div class="service-content-content1">
+                        <h4>1. ALU trong nhà</h4>
+                        <h5>Thường để dựng biển bảng trong nhà, các xưởng in sẽ tư vấn cho bạn các màu alu như màu vân gỗ đậm, màu vân gỗ nhạt, màu đá đỏ, màu xước vàng, màu xước hoa, màu xước đen. Chúng phù hợp với nơi có bóng râm và nổi bật ở không gian hẹp như trong nhà, văn phòng…</h5>
+                        <div class="service-content-image1">
+                            <img src="images/alu2.jpg" alt="image"/>
+                        </div>
+                    </div>
+                    <div class="service-content-content1">
+                        <h4>2. ALU ngoài trời</h4>
+                        <h5>Bảng màu alu ngoài trời có thể đa dạng, đa màu sắc hơn, tuy nhiên bạn cần tránh các màu quá chói như trắng kính, màu nhũ, màu xước bởi sẽ khó nổi bật dưới ánh nắng.</h5>
+                        <div class="service-content-image1">
+                            <img src="images/HongLuong.jpg" alt="image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-content" id="Hd">
+                <div class="service-content-title">
+                    <h3>I.Giới thiệu bảng hiệu đèn Hộp Đèn</h3>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h5>Làm bảng hiệu hộp đèn sẽ tạo được tầm nhìn tốt cho thương hiệu, làm nổi bật được tính chất riêng, cá tính, thông điệp mà bạn muống thương hiệu mình gởi đến với khách hàng, với sự phong phú và đa dạng về chất liệu, cùng những ứng dụng hiện đại trong việc trang trí quảng cáo.</h5>
+                        <h5>Làm bảng hiệu hộp đèn sẽ làm cho khách hàng dễ dàng nhận biết thương hiệu của công ty bạn. Một bảng hiệu với thiết kế nổi bật sẽ tạo được ấn tượng tốt cho khách hàng và họ thật dễ nhận ra bạn khi họ cần đến bạn. Điều này thật vô cùng quan trọng trong thời điểm mà kinh tế đang có sự cạnh tranh cao như hiện nay.</h5>
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/hopden1.jpg" alt="image"/>
+                    </div>
+                </div>
+                <div class="service-content-title">
+                    <h3>II. Các loại hình làm bảng hiệu Hộp Đèn</h3>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h4>1. Bảng hiệu hộp đèn Neon sign</h4>
+                        <h5>Bảng hiệu Neon sign là bảng hiệu được phát ra ánh sáng bằng các thành phần bên trong như hạt heli, neon, argon,…sợi dây điện sẽ được đưa vào bên trong ống và được bảo quản kỹ  tránh bị hở. Nhờ tác dụng của các chất khí đó kết hợp với nguồn điện tạo ra những màu sắc độc đáo mà không loại bảng hiệu đèn nào có được.</h5>
+                        <h5>Đèn Neon sign có nhiều màu như: đỏ, vàng, xanh, xanh lá, tím, hồng, trắng,…và thường được sử dụng loại có đường kính ống 12mm.</h5>
+                        
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/hopden2.jpg" alt="image"/>
+                    </div>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h4>2. Bảng hiệu hộp đèn Hiflex</h4>
+                        <h5>Hiflex là một loại chất liệu nhựa PVC có màu trắng sữa, có khả năng chịu nắng mưa, co giãn tốt, sau khi phủ lên một lớp màng, hiflex dùng để in sản phẩm, text,…rất đẹp. Đây là công nghệ được rất nhiều khách hàng đánh giá cao trong in kỹ thuật số.</h5>
+                        <h5>Có ưu điểm như sau:</h5>
+                        <ul>
+                            <li>In bảng hiệu hộp đèn Hiflex giá rẻ hơn so với công nghệ khác.</li>
+                            <li>Màu sắc sống động, bắt sáng tốt.</li>
+                            <li>Chất liệu chủ yếu để in pano, áp phích, biển quảng cáo khổ lớn ngoài trời.</li>
+                        </ul>
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/hopden3.jpg" alt="image"/>
+                    </div>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h4>3. Bảng hiệu hộp đèn mica</h4>
+                        <h5>Mica là tấm nhựa Acrylic, là loại chất liệu cao cấp bề mặt láng bóng, mịn và màu sắc đa dạng. Tấm mica được sản xuất từ nhóm vật chất silicat lớp bao gồm các vật liệu có liên kết chặt chẽ với nhau.</h5>
+                        <h5>Có ưu điểm như sau:</h5>
+                        <ul>
+                            <li>Đồng đều, óng ánh, bề mặt nhẵn mịn, xuyên sáng tốt và màu sắc đa dạng.</li>
+                            <li>Có tính dẻo nên dễ dàng gia công theo ý muốn.</li>
+                            <li>Có khả năng chịu được nhiệt độ cao và chống ăn mòn, không dẫn điện hay dẫn nhiệt.</li>
+                            <li>Có giá thành hợp lý, dễ dàng di chuyển khi thi công lắp đặt ở trên cao.</li>
+                        </ul>
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/hopden4.jpg" alt="image"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-content" id="MICA">
+                <div class="service-content-title">
+                    <h3>I.Giới thiệu bảng hiệu đèn MICA</h3>
+                </div>
+                <div class="service-content-info">
+                    <div class="service-content-content">
+                        <h5>Là một loại hình quảng cáo không thể thiếu dành cho tất cả những doanh nghiệp kinh doanh nói chung. Do đó nhu cầu Làm bảng hiệu mica – Chữ Nổi Mica Giá Rẻ đang ngày càng trở nên phổ biến được nhiều người tìm kiếm và áp dụng.</h5>
+                        <h5>Bảng hiệu mica là một loại bảng được sử dụng lắp đặt ở vị trí ngoài trời dành cho những mặt tiền của các đơn vị, cửa hàng hay doanh nghiệp, hoặc đơn giản là ở những trụ sở văn phòng làm việc nói chung.</h5>
+                        <h5>Người ta thường lựa chọn tấm mica làm bảng hiệu có kích thước đảm bảo tiêu chuẩn tối đa là 1.2*2.4m. Ngoài ra còn tùy theo yêu cầu của mỗi khách hàng mà các bạn còn có thể lựa chọn cho mình được những kích thước làm bảng hiệu mica sao cho phù hợp.</h5>
+                    </div>
+                    <div class="service-content-image">
+                        <img src="images/mica1.jpg" alt="image"/>
+                    </div>
+                </div>
+                <div class="service-content-title">
+                    <h3>II. Đặc điểm và ý nghĩa bảng hiệu MICA</h3>
+                </div>
+                <div class="service-content-info1">
+                    <div class="service-content-content1">
+                        <h4>1. Đặc điểm</h4>
+                        <ul>
+                            <li>Sản phẩm bảng hiệu mica có những đặc điểm nhất định cơ bản như chúng rất dễ bị trầy xước do những vật cứng bên ngoài tác động vào. </li>
+                            <li>Hơn thế nữa chúng là loại vật liệu giòn dễ vỡ do đó đòi hỏi quá trình sử dụng cũng như vận chuyển chúng phải đảm bảo sự cẩn trọng và nhẹ nhàng nhất định.</li>
+                            <li>Khả năng xuyên sáng của bảng hiệu mica có thể lên đến 98%. Bởi vậy cho nên chúng luôn đảm bảo được giá trị thẩm mỹ cao thu hút được sự chú ý của người nhìn vào.</li>
+                        </ul>
+                        <div class="service-content-image1">
+                            <img src="images/mica2.jfif" alt="image"/>
+                        </div>
+                    </div>
+                    
+                    <div class="service-content-content1">
+                        <h4>2. Ý nghĩa</h4>
+                        <ul>
+                            <li>Việc bảng hiệu mica kết hợp với chữ nổi mica sẽ đảm bảo mang đến một hình thức quảng cáo vô cùng nổi bật. Chúng mang đến vẻ đẹp đầy sang trọng và đẳng cấp dành cho những cửa hàng doanh nghiệp sở hữu những tấm bảng hiệu quảng cáo có chữ nổi mica đó.</li>
+                            <li>Chữ nổi mica với đặc điểm dễ thiết kế uốn lượn do đó chúng đảm bảo được độ tinh tế và sáng tạo trong quá trình sử dụng.</li>
+                        </ul>
+                        <div class="service-content-image1">
+                            <img src="images/K3Gaming.jpg" alt="image"/>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </section>
+    
+    <!--foot-contact-->
+    <section>
+        <div class="foot-contacts">
+          <div class="foot-contact">
+            <img src="images/logo2.png" alt="logo" class="foot-logo" />
+            <h1>QUẢNG CÁO NGUYỄN TÍN</h1>
+            <div>
+                <h2>Địa chỉ: Đường tỉnh 757, Bu Nho, Bù Gia Mập, Bình Phước, Việt Nam</h2>
+                <h2>SĐT: 0982.652.639 - 0945.879.839</h2>
+                <h2>Mail: quangcaonguyentin@gmail.com</h2>
+              </div>
+          </div>
+          <div class="foot-service">
+            <div class="foot-service-title">
+              <h1>DANH MỤC DỊCH VỤ</h1>
+            </div>
+            <h2><a href="#LED">Làm bảng hiệu LED</a></h2>
+            <h2><a href="#ALU">Làm bảng hiệu ALU</a></h2>
+            <h2><a href="#Hd">Làm bảng hiệu HỘP ĐÈN</a></h2>
+            <h2><a href="#MICA">Làm bảng hiệu MICA</a></h2>
+          </div>
+          <div class="foot-product">
+            <div class="foot-service-title">
+              <h1>DANH MỤC SẢN PHẨM</h1>
+            </div>
+            <h2><a href="product.html#led">Làm bảng hiệu LED</a></h2>
+            <h2><a href="product.html#alu">Làm bảng hiệu ALU</a></h2>
+            <h2><a href="product.html#hd">Làm bảng hiệu HỘP ĐÈN</a></h2>
+            <h2><a href="product.html#mica">Làm bảng hiệu MICA</a></h2>
+          </div>
+        </div>
+    </section>
+    <!--foot-->
+    <div class="web-foot">        
+        <h2>QUẢNG CÁO NGUYỄN TÍN &#10052 2021</h2>
+    </div>
+</body>
+</html>
